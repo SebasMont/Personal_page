@@ -1,0 +1,254 @@
+/*This css file is for all pages , there's only one
+stylesheet file for the entire website.*/
+/*Tag, class and id names are sort by alphabetical order.*/
+a #logo {
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	left: 3px;
+	padding: 3px;
+}
+.article-title {
+	font-size: 125%;
+}
+.article-cover {
+	width: 100%;
+	height: auto;
+}
+/*This section id for the blog page*/
+.Blog_tab {
+	font-family: calibri, arial, helvetica;
+	font-size: 20px;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	background-image: url('Images/Rocco_Man_Cave.png');
+	background-color: hsla(0, 0%, 20%, 0.8);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 100%;
+	max-height: 30%;
+}
+/*This section controls de Index-bar on Personal Blog
+page.*/
+.blog-index {
+	background-color: hsla(0, 0%, 20%, 0.78);
+	margin: 30px 0px 30px 10px;
+	width: 20%;
+	height: 700px;
+	float: left;
+}
+.blog-index ul {
+	list-style-type: none;
+	margin: 4px;
+	padding: 0px;
+}
+.blog-index ul li a {
+	display: block;
+	text-decoration: none;
+	color: hsla(0, 0%, 90%, 1);
+	font-size: 93%;
+	padding: 8px 0px;
+}
+.blog-index ul li a:hover {
+	background-color: hsla(240, 100%, 70%, 1);
+	color: black;
+}
+/*This section is for the principal content in
+Personal Blog page.*/
+.blog-main-board {
+	background-color: hsla(0, 0%, 20%, 0.78);
+	margin: 30px 0px 30px 10px;
+	width: 58%;
+	height: auto;
+	float: left;
+}
+.blog-main-board h2 {
+	text-align: center;
+	font-size: 35px;
+}
+.blog-main-board article {
+	margin: 18px;
+}
+canvas {
+	background-color: white;
+	margin: 20px;
+}
+dt {
+	font-style: italic;
+}
+.Experiments_tab {
+	font-family: calibri, arial, helvetica;
+	font-size: 20px;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	background-color: hsla(0, 0%, 35%, 1);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/*This footer works on all pages.*/
+footer {
+	font-size: small;
+	text-align: center;
+}
+footer p a {
+	text-decoration: none;
+	color: yellow;
+}
+/*This section controls the "Gallery page"*/
+.Gallery_tab {
+	font-family: calibri, arial, helvetica;
+	font-size: 20px;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	background-image: url('Images/csgo_wallpaper.jpg');
+	background-color: hsla(0, 0%, 20%, 0.8);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.gallery-content {
+	margin: 25px 43px;
+	padding: 20px 1%;
+	height: auto;
+	max-width: 90%;
+	background-color: hsla(0, 0%, 20%, 0.75);
+	align-content: center;
+}
+hr {
+	max-width: 90%;
+	background-color: white;
+	clear: left;
+}
+.image-deposit {
+	width: 95%;
+	height: auto;
+	margin: 20px;
+	padding: 10px;
+	background-color: hsla(0, 0%, 20%, 0.6);
+}
+.image-deposit img {
+	width: 358px;
+	height: auto;
+	padding: 7px;
+	transition: 0.4s;
+	margin: 2px;
+}
+.image-deposit img:hover {
+	background-color: hsl(0, 0%, 50%, 0.7);
+}
+.float-center {
+	float: center;
+}
+.float-left {
+	float: left;
+}
+li a.navigation-button {
+	display: block;
+	padding: 16px;
+	color: hsla(0, 100%, 100%, 1);
+	text-decoration: none;
+}
+li a.navigation-button:hover {
+	background-color: hsla(0, 0%, 30%, 0.8);
+}
+li a.navigation-button:active {
+	background-color: hsla(0, 0%, 30%, 0.8);
+}
+/*This section is from Principal page*/
+.main-content {
+	margin-top: 70px;
+	padding: 22px 1.7%;
+	height: auto;
+	width: 90%;
+	background-color: hsla(0, 0%, 20%, 0.75);
+	align-content: center;
+	margin: 10px 43px;
+}
+.media-icon {
+	width: 29px;
+	height: 29px;
+	padding: 2px 5px;
+}
+/*This atribute (navigation-bar) works on all pages,
+do not delete and when you make a changein this class
+it works on all pages*/
+.navigation-bar {
+	text-align: center;
+	font-stretch: expanded;
+	background-color: hsla(240, 80%, 60%, 1);
+	width: 100%;
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	list-style: none;
+	position: fixed;
+	top: 0px;
+}
+.navigation-bar li {
+	display: inline-block;
+	float: left;
+}
+.job {
+	text-align: center;
+}
+.page_title {
+	font-size: 280%;
+	color: rgba();
+	text-align: center;
+	margin-top: 90px;
+	margin-bottom: 15px;
+	text-shadow: 0px 7px 15px black;
+}
+#photo {
+	width: 140px;
+	height: 140px;
+	border-radius: 10px;
+	float: top;
+}
+/*It refers to Principal page background and format*/
+.Principal_Tab {
+	font-family: calibri, arial, helvetica;
+	font-size: 20px;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	background-image: url('Images/Cian_zoom.png');
+	background-color: hsla(0, 0%, 20%, 0.8);
+	background-size: cover;
+	background-attachment: fixed;
+	max-width: 100%;
+}
+.section-name {
+	font-size: 145%;
+	padding: 0px 16px;
+}
+.section-text {
+
+}
+/*This is the bar whit social media links in the right side
+of the page.*/
+.social-media {
+	position: fixed;
+	right: 3px;
+	bottom: 15px;
+	height: 150px;
+	width: 40px;
+	background-color: hsla(0, 0%, 20%, 0.65);
+	border-radius: 2px;
+	margin: 0px;
+}
+.social-media a {
+	display: block;
+}
+.social-media a:hover {
+	background-color: hsla(0, 10%, 10%, 0.9);
+}
